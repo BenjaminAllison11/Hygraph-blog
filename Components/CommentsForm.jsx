@@ -48,8 +48,8 @@ const CommentsForm = ({slug}) => {
  
   return (
    
-   <div className="bg-white shadow-lg rounded-lg p-8 pb-12 mb-8">
-      <h3 className="text-xl mb-8 font-semibold border-b pb-4">Leave a reply</h3>
+   <div className="bg-indigo-600 shadow-lg rounded-lg p-8 pb-12 mb-8">
+      <h3 className="text-xl mb-8 font-bold border-b pb-4">Leave a reply</h3>
         <div className="grid grid-cols-1 gap-4 mb-4">
           <textarea ref={commentEl} 
           className="p-4 outline-none w-full rounded-lg focus:ring-2 focus:ring-gray-200 bg-gray-100 text-gray-700" 
@@ -82,7 +82,7 @@ const CommentsForm = ({slug}) => {
               name="storeData"
               value="true"
             />
-            <label className="text-gray-500 cursor-pointer ml-2"> Save email and name</label>
+            <label className="text-green-600 cursor-pointer ml-2 font-bold"> Save email and name</label>
           </div>
         </div>
         {error && <p className="text-xs text-red-500">All fields are required</p>}
@@ -90,7 +90,7 @@ const CommentsForm = ({slug}) => {
           <button 
           type="button" 
           onClick={handleCommentSubmission}
-          className="transition duration-500 ease hover:bg-indigo-900 inline-block bg-pink-600 text-lg rounded-full text-white px-8 py-3 cursor-pointer"
+          className="transition duration-500 ease hover:bg-yellow-500 inline-block bg-amber-500 text-lg rounded-full text-green-600 font-bold px-8 py-3 cursor-pointer"
           >
               Post comment
           </button>
