@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const FeaturedPostCard = ({ post }) => (
-  <div className="relative h-72 rounded-full">
+  <div className="relative h-72 rounded-lg">
     <div className="absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full h-72 rounded-full" style={{ backgroundImage: `url('${post.featuredImage.url}')` }} />
     <div className="absolute rounded-lg bg-center bg-gradient-to-b opacity-100 from-sky-200 via-sky-300 to-sky-400 w-full h-72 rounded-full" />
     <div className="flex flex-col rounded-lg p-4 items-center justify-center absolute w-full h-full rounded-full">
@@ -27,3 +27,4 @@ const FeaturedPostCard = ({ post }) => (
 );
 
 export default FeaturedPostCard;
+
