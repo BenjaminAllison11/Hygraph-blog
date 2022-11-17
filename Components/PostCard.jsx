@@ -17,7 +17,7 @@ const PostCard = ({post}) => {
             {post.title}
         </Link>
       </h1>
-         <p className="text-center text-lg text-white font-bold px-4 lg:px-20 mb-8 ml-10">{post.excerpt}</p>
+         <p className="text-center text-lg text-white font-bold px-4 lg:px-20 mb-8">{post.excerpt}</p>
          </div>
       <div className="block lg:flex text-center items-center justify-left mb-8 w-full font-bold text-white">
         <div className="flex items-center justify-center mb-4 lg:mb-0 w-full lg:w-auto mr-8 font-bold text-white">
