@@ -13,8 +13,8 @@ const Comments = ({slug}) => {
   return (
     <>
       {comments.length > 0 && (
-        <div className="bg-indigo-600 shadow-lg rounded-lg p-8 pb-12 mb-8">
-          <h3 className="text-xl mb-8 font-bold border-b pb-4 text-green-600">
+        <div className="bg-gradient-to-b opacity-100 from-sky-200 via-sky-300 to-sky-4000 shadow-lg rounded-lg p-8 pb-12 mb-8">
+          <h3 className="text-xl mb-8 font-bold border-b pb-4 text-white">
             {comments.length}
             {' '}
             Comments
