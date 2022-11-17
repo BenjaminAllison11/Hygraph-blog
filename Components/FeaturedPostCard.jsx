@@ -27,3 +27,4 @@ const FeaturedPostCard = ({ post }) => (
 );
 
 export default FeaturedPostCard;
+
