@@ -25,7 +25,7 @@ const PostCard = ({post}) => {
                 alt={post.author.name}
                 height="50px"
                 width="50px"
-                className="align.middle rounded-full"
+                className="align-middle rounded-full"
                 src={post.author.photo.url}
             />
             <p className="inline align-middle font-bold text-black-700 ml-2 text-lg">{post.author.name}</p>
