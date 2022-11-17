@@ -6,11 +6,11 @@ const PostCard = ({post}) => {
   console.log(post);
   return (
     <div className="bg-gradient-to-b opacity-100 from-sky-200 via-sky-300 to-sky-400 shadow-lg rounded-full p-0 lg:p-8 pb-5 mb-8">
-      <div className="relative overflow-hidden pb-40 rounded-full object-left w-50">
+      <div className="relative overflow-hidden pb-40 rounded-full object-left w-50 mr-3 pr-3">
         <img
           src={post.featuredImage.url}
           alt={post.title}
-          className="object-top absolute h-80 w-80 object-cover shadow-lg rounded-full lg:rounded-full ml-20"
+          className="object-top absolute h-80 w-80 object-cover shadow-lg rounded-full lg:rounded-full"
         />
          <h1 className="transition duration-100 text-center mb-8 cursor-pointer hover:text-slate-500 text-3xl font-bold text-white">
         <Link href={`/post/${post.slug}`}>
